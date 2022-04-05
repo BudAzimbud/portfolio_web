@@ -9,13 +9,13 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import "./Sidebar.css";
-import Logo from '../../Asset/Logo.svg'
+import Logo from "../../Asset/Logo.svg";
 function Sidebar() {
   return (
     <div>
       <aside className="main-sidebar sidebar-secondary-primary  elevation-1">
         <div className="title">
-          <img src={Logo} alt="" width="100"/>
+          <img src={Logo} alt="" width="100" />
         </div>
         <div className="menu">
           <ul>
@@ -60,6 +60,7 @@ function Sidebar() {
             </Link>
           </div>
         </div>
+        <p className="footer">copyright @2022 by Azim</p>
       </aside>
     </div>
   );

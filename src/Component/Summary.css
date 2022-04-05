@@ -1,0 +1,15 @@
+.summary{
+    background: white;
+    padding: 20px;
+}
+
+.title-page{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+.col > h5{
+    font-weight: bold;
+}
+

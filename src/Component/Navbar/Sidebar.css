@@ -65,3 +65,8 @@
 .container{
     height: 100vh;
 }
+
+.footer{
+    padding: 20px;
+    color: rgb(131, 128, 128);
+}

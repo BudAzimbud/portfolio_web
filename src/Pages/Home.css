@@ -1,0 +1,38 @@
+.title-home{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-developer{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+.title-developer h2{
+ color: rgb(26, 26, 243);
+}
+
+.hi{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+
+.title-home h1{
+    font-size: 70px;
+}
+
+.title-home h1:hover{
+    color: blueviolet;
+}
+
+
