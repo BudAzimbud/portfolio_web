@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import Logo from "../../Asset/Logo.svg";
+import "./Navbar.css";
 function Navbar() {
   const isVisited = (url) => {
     if (url === window.location.pathname) {
@@ -24,29 +25,14 @@ function Navbar() {
           </li>
         </ul>
         <ul className="navbar-nav ml-auto mr-4">
-          <li className="nav-item d-none d-sm-inline-block">
-            <Link to="/" className={isVisited("/")}>
-              Home
-            </Link>
-          </li>
-          <li className="nav-item ">
-            <Link to="/Resume" className={isVisited("/Resume")}>
-              Resume
-            </Link>
-          </li>
-          <li className="nav-item ">
-            <Link to="/Project" className={isVisited("/Project")}>
-              Project
-            </Link>
-          </li>
-          <li className="nav-item d-none d-sm-inline-block">
-            <Link to="/About" className={isVisited("/About")}>
-              About
-            </Link>
-          </li>
           <li className="nav-item">
-            <Link to="/Contact" className={isVisited("/Contact")}>
-              Contact
+            <Link
+              to="/"
+              className={isVisited("/Resume")}
+              style={{ alignItems: "center" }}
+            >
+              <img src={Logo} alt="" width="35" className="logo" />
+              ZIM
             </Link>
           </li>
         </ul>

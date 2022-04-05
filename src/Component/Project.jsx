@@ -6,7 +6,7 @@ function Project() {
   return (
     <div className="container-fluid mt-3">
       <p className="title-page">My Project on going</p>
-      <div className="summary ">
+      <div className="project ">
         <div className="row">
           <div className="col">
             <h5>Nestjs & Vue js</h5>
@@ -14,7 +14,6 @@ function Project() {
               <img src={Project1} alt="" width={"400"} />
             </a>
           </div>
-
           <div className="col">
             <h5>Reactjs (CMS)</h5>
             <a href="/">

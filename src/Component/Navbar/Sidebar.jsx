@@ -11,6 +11,12 @@ import {
 import "./Sidebar.css";
 import Logo from "../../Asset/Logo.svg";
 function Sidebar() {
+  const isVisited = (url) => {
+    if (url === window.location.pathname) {
+      return { color: "blue" };
+    }
+  };
+
   return (
     <div>
       <aside className="main-sidebar sidebar-secondary-primary  elevation-1">
@@ -20,16 +26,24 @@ function Sidebar() {
         <div className="menu">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" style={isVisited("/")}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/">Resume</Link>
+              <Link to="/Resume" style={isVisited("/Resume")}>
+                Resume
+              </Link>
             </li>
             <li>
-              <Link to="/">Project</Link>
+              <Link to="/Project" style={isVisited("/Project")}>
+                Project
+              </Link>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <Link to="/About" style={isVisited("/About")}>
+                About
+              </Link>
             </li>
           </ul>
         </div>
@@ -60,6 +74,7 @@ function Sidebar() {
             </Link>
           </div>
         </div>
+        <p className="footer">copyright @2022 by Azim</p>
       </aside>
     </div>
   );
