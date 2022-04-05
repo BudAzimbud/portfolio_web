@@ -28,7 +28,7 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/"
-              className={isVisited("/Resume")}
+              className={isVisited("/")}
               style={{ alignItems: "center" }}
             >
               <img src={Logo} alt="" width="35" className="logo" />

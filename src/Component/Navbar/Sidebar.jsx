@@ -52,26 +52,26 @@ function Sidebar() {
             <p>Contact</p>
           </div>
           <div className="contact-menu">
-            <Link to="/">
+            <a href="https://wa.me/+62895323496371">
               <FaWhatsapp />
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="https://github.com/BudAzimbud">
               <AiFillGithub />
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="https://www.linkedin.com/in/azim-a-5bab22215/">
               <AiOutlineLinkedin />
-            </Link>
+            </a>
           </div>
           <div className="contact-menu">
             <Link to="/">
               <AiFillTwitterCircle />
             </Link>
-            <Link to="/">
+            <a href="https://www.facebook.com/azim.suratmin/">
               <AiFillFacebook />
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="https://www.instagram.com/az_im4241/">
               <AiOutlineInstagram />
-            </Link>
+            </a>
           </div>
         </div>
         <p className="footer">copyright @2022 by Azim</p>

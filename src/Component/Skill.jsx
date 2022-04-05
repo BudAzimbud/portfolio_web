@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skill.css";
 import { DiReact } from "react-icons/di";
-import { SiNestjs, SiMongodb, SiHtml5 } from "react-icons/si";
+import { SiNestjs, SiMongodb, SiDocker } from "react-icons/si";
 function Skill() {
   return (
     <div className="container-fluid mt-3">
@@ -27,9 +27,9 @@ function Skill() {
             </h1>
           </div>
           <div className="col">
-            <h5>Html</h5>
+            <h5>Docker</h5>
             <h1>
-              <SiHtml5 />
+              <SiDocker />
             </h1>
           </div>
         </div>
