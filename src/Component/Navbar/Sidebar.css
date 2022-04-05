@@ -1,0 +1,67 @@
+.main-sidebar{
+    background-color: white;
+} 
+
+.title{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.title > h2 {
+    font-weight: bold;
+    color: rgb(7, 7, 37);
+
+}
+.title > p {
+    text-decoration: underline;
+}
+.title > p:hover {
+    color: red;
+}
+
+.menu ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 20px;
+}
+.menu ul li:hover{
+    background-color: rgb(174, 174, 197);
+}
+
+.menu ul li a{
+    color: rgb(102, 98, 98);
+}
+.menu ul li a:hover{
+    color: white;
+}
+
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact > p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.contact-menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.contact-menu > a{
+    font-size: 35px;
+}
+
+.container{
+    height: 100vh;
+}
