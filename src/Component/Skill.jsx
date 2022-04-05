@@ -1,13 +1,13 @@
 import React from "react";
 import "./Skill.css";
 import { DiReact } from "react-icons/di";
-import {SiNestjs ,SiMongodb ,SiHtml5} from 'react-icons/si'
+import { SiNestjs, SiMongodb, SiHtml5 } from "react-icons/si";
 function Skill() {
   return (
     <div className="container-fluid mt-3">
       <p className="title-page">Technology used</p>
-      <div className="summary ">
-        <div className="row ml-5 ">
+      <div className="summary">
+        <div className="row">
           <div className="col">
             <h5>Reactjs</h5>
             <h1>

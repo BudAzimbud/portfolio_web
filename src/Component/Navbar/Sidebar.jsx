@@ -60,7 +60,6 @@ function Sidebar() {
             </Link>
           </div>
         </div>
-        <p className="footer">copyright @2022 by Azim</p>
       </aside>
     </div>
   );

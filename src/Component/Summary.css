@@ -1,6 +1,12 @@
 .summary{
     background: white;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    column-gap: 50px;
 }
 
 .title-page{
