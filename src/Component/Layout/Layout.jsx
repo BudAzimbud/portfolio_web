@@ -15,8 +15,11 @@ function Layout({ child }) {
           <div className="container-fluid">
             <div className="row">{child}</div>
           </div>
-          <div className="bg-light">
+          <div className="bg-light d-flex justify-content-between">
             <p className="text-secondary">copyright @2022 by Azim</p>
+            <a href="https://github.com/BudAzimbud/portfolio_web">
+              Download this web
+            </a>
           </div>
         </section>
       </div>
