@@ -30,7 +30,7 @@ function Resume() {
         </ul>
       </div>
 
-      <div className="container work-experience mt-3">
+      <div className="work-experience mt-3">
         <h5 className="text-secondary">Educational</h5>
         <ul>
           <li>

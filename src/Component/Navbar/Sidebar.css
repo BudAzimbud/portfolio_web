@@ -32,10 +32,14 @@
 }
 .menu ul li:hover{
     background-color: rgb(174, 174, 197);
+
 }
 
 .menu ul li a{
     color: rgb(102, 98, 98);
+    padding-right: 100vw;
+    padding-bottom: 100vh;
+
 }
 .menu ul li a:hover{
     color: white;
