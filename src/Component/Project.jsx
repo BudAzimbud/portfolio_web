@@ -16,7 +16,12 @@ function Project() {
           }}
         >
           <div className="card" style={{ width: "18rem", height: "55%" }}>
-            <img className="card-img-top" src={Project1} alt="Card image cap" />
+            <img
+              className="card-img-top"
+              src={Project1}
+              alt="Card image cap"
+              loading="lazy"
+            />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">NestJS & VueJS</h5>
               <p className="card-text text-secondary">
@@ -29,7 +34,12 @@ function Project() {
             </div>
           </div>
           <div className="card" style={{ width: "18rem", height: "55%" }}>
-            <img className="card-img-top" src={Project2} alt="Card image cap" />
+            <img
+              className="card-img-top"
+              src={Project2}
+              alt="Card image cap"
+              loading="lazy"
+            />
             <div className="card-body">
               <h5 className="card-title font-weight-bold">ReactJs (CMS)</h5>
               <p className="card-text text-secondary">

@@ -38,8 +38,8 @@
 .menu ul li a{
     color: rgb(102, 98, 98);
     padding-right: 100vw;
-    padding-bottom: 100vh;
-
+    padding-bottom: 100px;
+    padding-top: 20px;
 }
 .menu ul li a:hover{
     color: white;
