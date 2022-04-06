@@ -17,7 +17,7 @@ function Layout({ child }) {
           </div>
           <div className="bg-light d-flex justify-content-between">
             <p className="text-secondary">copyright @2022 by Azim</p>
-            <a href="https://github.com/BudAzimbud/portfolio_web">
+            <a href="https://github.com/BudAzimbud/portfolio_web" className="text-primary">
               Download this web
             </a>
           </div>
