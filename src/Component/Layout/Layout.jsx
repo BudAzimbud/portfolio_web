@@ -17,7 +17,7 @@ function Layout({ child }) {
             className="bg-light d-flex justify-content-between"
             style={{ bottom: "0" }}
           >
-            <p className="text-secondary">copyright @2022 by Azim</p>
+            <p className="text-secondary">Build with 💓 by Azim</p>
             <a
               href="https://github.com/BudAzimbud/portfolio_web"
               className="text-primary"
