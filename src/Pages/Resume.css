@@ -1,0 +1,20 @@
+.resume-hero{
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.work-experience > ul{
+    list-style: none;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.work-experience > ul li{
+    padding: 20px;
+}
+
+

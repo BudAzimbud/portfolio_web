@@ -8,16 +8,20 @@ function Layout({ child }) {
       <Sidebar />
       <Navbar />
       <div className="content-wrapper bg-light">
-        <section className="content-header">
-          <div className="container-fluid"></div>
-        </section>
+        <section className="content-header"></section>
         <section className="content">
           <div className="container-fluid">
             <div className="row">{child}</div>
           </div>
-          <div className="bg-light d-flex justify-content-between">
+          <div
+            className="bg-light d-flex justify-content-between"
+            style={{ bottom: "0" }}
+          >
             <p className="text-secondary">copyright @2022 by Azim</p>
-            <a href="https://github.com/BudAzimbud/portfolio_web" className="text-primary">
+            <a
+              href="https://github.com/BudAzimbud/portfolio_web"
+              className="text-primary"
+            >
               Download this web
             </a>
           </div>
