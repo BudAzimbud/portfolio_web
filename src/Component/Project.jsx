@@ -1,6 +1,8 @@
 import React from "react";
 import Project1 from "../Asset/Project1.png";
 import Project2 from "../Asset/Project2.png";
+import Project3 from "../Asset/Project3.png";
+import Project4 from "../Asset/Project4.png";
 
 function Project() {
   return (
@@ -45,6 +47,50 @@ function Project() {
               <p className="card-text text-secondary">
                 Purpose application to manage app in my internal Project like
                 cms application
+              </p>
+              <a
+                href="https://wa.me/+62895323496371"
+                className="btn btn-primary"
+              >
+                View
+              </a>
+            </div>
+          </div>
+          <div className="card" style={{ width: "18rem", height: "55%" }}>
+            <img
+              className="card-img-top"
+              src={Project4}
+              alt="Card image cap"
+              loading="lazy"
+            />
+            <div className="card-body">
+              <h5 className="card-title font-weight-bold">
+                ReactJS(Electron) & Adam 6000
+              </h5>
+              <p className="card-text text-secondary">
+                Create App desktop for IOT Tweak on bandung
+              </p>
+              <a
+                href="https://wa.me/+62895323496371"
+                className="btn btn-primary"
+              >
+                View
+              </a>
+            </div>
+          </div>
+          <div className="card" style={{ width: "18rem", height: "55%" }}>
+            <img
+              className="card-img-top"
+              src={Project3}
+              alt="Card image cap"
+              loading="lazy"
+            />
+            <div className="card-body">
+              <h5 className="card-title font-weight-bold">
+                Reactjs & Reactbootsrap
+              </h5>
+              <p className="card-text text-secondary">
+                Just fix bug responsive
               </p>
               <a
                 href="https://wa.me/+62895323496371"
